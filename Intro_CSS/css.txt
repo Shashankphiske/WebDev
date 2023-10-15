@@ -29,3 +29,41 @@ eg:
     href="xyz.css" // where is it located   
 />
 most commonly used in web development
+
+css selector : it is the part which selects html elements to apply our properties and values to it in css
+selector are of different types:
+1] element selector :
+    eg :
+    h1
+    {
+        color:red //apply it to all h1 element
+    }
+
+2] class selector : it can be applied to many html elements
+    eg:
+    .red-heading
+    {
+        color:red
+    }
+
+3] id selector: selects elements with particular id attribute
+                id element should be applied to only one element in the html file
+    eg:
+    #main
+    {
+        color:red   
+    }
+
+4] attribute selector :
+eg:
+ p[dragable] // p is the para elenent and dragable is the attribute that we want to select
+ {
+    color:red
+ }
+
+5] universal selector : it means select all
+eg:
+*
+{
+    color:red
+}
