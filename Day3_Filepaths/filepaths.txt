@@ -1,0 +1,12 @@
+There are 2 file paths :
+
+Absolute file path : the file path from the root the end of the destination
+                     eg : c:/folder1/folder2/image.png
+
+Relative file path : it is relative to something
+                     eg : if you are writing a html file and you want to acces an image, but its in the folder inside the where html
+                     file is then we can specify a relative position of that image
+
+                     but we can write it as :
+                     ./dog.png look inside the current directory and find the image
+                     ../dog.png to go up a level to find this image

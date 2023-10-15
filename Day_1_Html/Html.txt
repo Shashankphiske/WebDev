@@ -1,0 +1,5 @@
+Void elements : A void element is an element where you are forbidden to put any content inside the tag      
+                eg : <hr /> (horizontal tag)
+                     <br /< (break element)
+
+                Dont use void elements like break tag to create separate paragraph elements inside a single paragraph tag

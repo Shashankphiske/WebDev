@@ -1,0 +1,22 @@
+Lists :
+1] Unordered list : <ul>
+                        <li>Milk</li> // these are list items
+                        <li>Eggs</li> // if we want to add any content to our list we need to use these list items tag
+                    </ul>
+                    Unordered list when executed display a bullet point infront of the item 
+
+2] Ordered List : <ol>
+                    <li>Milk</li>
+                    <li>Eggs</li>
+                  </ol>
+                  // here it will display a number before the element
+
+HTML Attributes :
+
+<tag attributes=value> Content </a>
+
+1) Anchor tags : <a href="www.google.com"> this is a link </a>
+
+Image elements : <img src="url"/> it is a void element and the url specifies the location of the image 
+                 <img src="url" alt="sample image" /> alt attribute stands for alternative text description
+                 the alt should have description about the image as the screen readers will read the image description

@@ -1,0 +1,31 @@
+there are 3 ways of adding css:
+inline
+internal
+extrnal
+
+inline will go in the same line as a particular html element 
+eg : <html style = "background:blue"> </html>   
+"background:blue" is called value part and the background here is called property you want to change and blue here is the value that you
+want it to change it to
+The drawback is we would want to add it to each and every line to change it according to our requirements   
+only use for specific lines or testing or one line
+
+internal css works with a special html tag called style element
+eg:
+<style>
+    html // this is called a selector and css goes in between {}
+    {
+        backgrond:red
+    }
+</style>
+we shoudlnt use internal css if we are building a multipage website
+
+external css lives inside a complete separate file xyz.css
+inside this we write our selector and its properties and values
+to add it to our html file we will add a link element which is self closing tag
+eg:
+<link
+    rel="stylesheet" // this specifies the relationship or role of this that we are linking to 
+    href="xyz.css" // where is it located   
+/>
+most commonly used in web development
