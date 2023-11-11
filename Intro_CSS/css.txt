@@ -1,7 +1,7 @@
 there are 3 ways of adding css:
 inline
 internal
-extrnal
+external
 
 inline will go in the same line as a particular html element 
 eg : <html style = "background:blue"> </html>   

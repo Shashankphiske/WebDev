@@ -3,3 +3,7 @@ Void elements : A void element is an element where you are forbidden to put any 
                      <br /< (break element)
 
                 Dont use void elements like break tag to create separate paragraph elements inside a single paragraph tag
+
+Hyper text : it is a type of text that refrences to another texts in an electronic device like computer
+
+Markup Language : it is type of language that is used to control the functionality or document etc 

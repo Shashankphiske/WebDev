@@ -1,0 +1,14 @@
+1) font-size :
+h1
+{
+    font-size: 20px;
+}
+here, 1pixel is 1/96th inch or 0.26mm
+1pt or 1point is 1/72nd of an inch 0.35mm
+em size : it is relative to the parent of the object that we are applying it to eg:
+    <body> // if body is 20px
+        <h1>Hello</h1> then if h1 is set to 1em then it will also become 20px or 2em then 40px
+    </body>
+
+rem size : it is relative to the root
+commonly root is html tag
