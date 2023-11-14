@@ -1,0 +1,67 @@
+CSS : cascading style sheet
+
+Cascading here is the importance of the css rules and their order
+
+css commands have importance in 4 aspects :
+Position
+Specificity
+Type 
+Importance
+
+Position : li{
+    color : red;
+    color : blue;
+}
+here the blue color will be applied because it is further down
+
+Specificity : 
+for eg : <li id = "first_id" class="first_class" draggable>
+li{color : blue;} // this is least specific
+.first_class{color : red;} // this is more specific than element selector
+li[draggable]{color : purple;} // this is more specific than class selector
+#first_id{color : orange;} // this is the most specific selector
+
+Type : 
+inline is the most important 
+then comes the internal
+then the external
+
+Importance :
+
+color : red;
+color : blue !important; if we add this important then it will ensure that this is the most important rule
+
+Combining CSS selectors :
+
+eg : <p>Yellow text</p>
+    <div class = "box inner-box">
+        <p>White Text</p>
+
+    </div>
+
+    p{
+        color : yellow;
+    }
+    .inner-box p{ // here we selected p element with inner-box class thus Combining element and class selector
+        color : white;
+    }
+Group selector : selector, selector{
+                        attribute : value;
+                    }
+
+Child selector : selector > selector{  // the first selector is the parent and the second selector is the child
+                        color : black;
+                    }
+
+Descendant selector :
+selector selector{
+    color : black;
+}
+
+Chaining selector :
+selectorselector{
+    color : black;
+}
+usually used to combine/chain all the selectors about a specific element and apply the changes
+
+we can also combine these above combiners thus combining combiners selector

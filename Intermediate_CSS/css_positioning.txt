@@ -1,0 +1,12 @@
+positioning a element in css :
+static
+relative
+absolute
+fixed
+
+relative position is relative to the original default position 
+
+absolute position makes position relative to the nearest positioned ancestor or top-left corner of webpage
+z-index plays a major role in positioning of elements, it determines which element goes on top
+
+fixed positioning is relative to the top left corner of the browser window

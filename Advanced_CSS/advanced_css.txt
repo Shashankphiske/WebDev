@@ -1,0 +1,18 @@
+eg :
+<h1> Shashank </h1>
+<h2> Phiske </h2>
+this will display those in 2 separate lines thus we will use display property here
+h2{
+    display : inline;
+}
+this will print them in same line, by default it is set to block
+
+another one is display : inline-block; this will allow us to set a height and width of the element and also allow other elements inline to it
+
+another one is none : it will make any element on the screen disappear
+
+Using the float property we can make our text wrap around our image
+float : left ; this is an example
+use this float property on image
+if we want our part of text to behave normaly then we will apply clear property to our text
+eg : clear : left/right /etc;   
